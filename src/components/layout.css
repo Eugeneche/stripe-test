@@ -1,3 +1,4 @@
+/* reset settings */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,6 +41,35 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* custom styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Source+Sans+Pro:wght@600&display=swap');
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#___gatsby {
+  height: 100% !important;
+}
+
+#gatsby-focus-wrapper {
+  height: 100% !important;
+}
+
+.global-wrapper {
+  display: flex;
+  height: 100% !important;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  /* background: #fbfbfb; */
+  /* padding-top: 57px; */ /* for case when main menu has position fixed */
 }
 
 /* :root {
